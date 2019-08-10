@@ -1,8 +1,8 @@
-﻿___INFO___
+___INFO___
 
 {
   "displayName": "Gifty",
-  "description": "Embed the Gifty order module on your website to start selling your giftcard quickly and with ease.",
+  "description": "Embed the Gifty order module on your website to start selling your gift vouchers quickly and with ease.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -158,10 +158,9 @@ setInWindow('Gifty', {
             key: data.key, 
             trigger: data.trigger 
 });
-injectScript('https://static.gifty.nl/js/widget.js');
-data.gtmOnSuccess();
+injectScript('https://static.gifty.nl/js/widget.js', data.gtmOnSuccess, data.gtmOnFailure);
 
 
 ___NOTES___
 
-Created on 8/9/2019, 12:44:50 PM
+Created on 8/10/2019, 4:41:05 PM
