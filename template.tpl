@@ -1,8 +1,8 @@
 ___INFO___
 
 {
-  "displayName": "Gifty",
-  "description": "Embed the Gifty order module on your website to start selling your gift vouchers quickly and with ease.",
+  "displayName": "Gifty Order Module",
+  "description": "Embed the Gifty Order Module on your website to start selling your gift vouchers quickly and with ease.",
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
@@ -22,7 +22,7 @@ ___TEMPLATE_PARAMETERS___
 
 [
   {
-    "help": "You can find your integration code on the order module page in your Gifty dashboard or in your webmaster manual.",
+    "help": "You can find your integration code on the order module page in your Gifty dashboard or your webmaster manual.",
     "alwaysInSummary": true,
     "valueValidators": [
       {
@@ -155,8 +155,8 @@ ___SANDBOXED_JS_FOR_WEB_TEMPLATE___
 var setInWindow = require('setInWindow');
 var injectScript = require('injectScript');
 setInWindow('Gifty', {
-            key: data.key, 
-            trigger: data.trigger 
+            key: data.key,
+            trigger: data.trigger
 });
 injectScript('https://static.gifty.nl/js/widget.js', data.gtmOnSuccess, data.gtmOnFailure);
 
