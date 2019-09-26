@@ -1,8 +1,16 @@
+___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
 ___INFO___
 
 {
   "displayName": "Gifty Order Module",
   "description": "Embed the Gifty Order Module on your website to start selling your gift vouchers quickly and with ease.",
+  "categories": ["SALES", "ATTRIBUTION", "MARKETING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
