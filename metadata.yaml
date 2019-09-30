@@ -1,5 +1,5 @@
-homepage: "https://gifty.nl",
-documentation: "https://github.com/giftyhq/gtm-template",
+homepage: "https://gifty.nl"
+documentation: "https://github.com/giftyhq/gtm-template"
 versions:
-  - sha: 2ad7a6ae3d0e57acd2f9f170511e4d58b1d38cf2
+  - sha: 11d02a4669b848bbfb5f18f618f7db0736a0c85f
     changeNotes: Initial Version
